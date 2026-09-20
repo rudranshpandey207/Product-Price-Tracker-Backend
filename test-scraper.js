@@ -6,7 +6,7 @@ async function runTest() {
   const targetId = process.argv[2] ? parseInt(process.argv[2], 10) : 380;
 
   console.log('==================================================');
-  console.log('🧪 Starting Playwright Headed Scraper Test');
+  console.log('Starting Playwright Headed Scraper Test');
   console.log(`Target: Mock Store Product #${targetId}`);
   console.log('Watch your screen! A Chromium window will open...');
   console.log('==================================================\n');
